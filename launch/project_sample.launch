@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<include file="$(find project_sample)/launch/includes/mdog_Drivers.launch.xml"></include>
+<node name="main" pkg="project_sample" type="main" output="screen">
+</node>
+
+</launch>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- TF setting -->
+    <include file="$(find project_sample)/launch/includes/mdog_tf.launch.xml" />
+
+    <!-- YDLidar -->
+    <include file="$(find project_sample)/launch/includes/mdog_ydlidar.launch.xml" />
+    
+    <!-- Imu -->
+    <include file="$(find project_sample)/launch/includes/mdog_imu.launch.xml" />
+
+</launch>

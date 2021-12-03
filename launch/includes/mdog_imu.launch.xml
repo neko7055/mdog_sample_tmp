@@ -1,0 +1,7 @@
+<launch>
+    <node name="imu_auto"   pkg="project_sample"  type="mpu9250_node.py" output="screen">
+    <param name="port"       value="/dev/mpu9250"/>  
+    <param name="imu_frame"  value="imu_link"/>
+    <param name="baudrate"   value="57600"/>
+    </node>
+</launch>
